@@ -1,6 +1,19 @@
-#color {
-  height: 30px;
-  width: 30px;
+* {
+  margin: 0px;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  border: solid black 2px;
+  display: inline-block;
+}
+#red {
   background-color: red;
-  color: blue;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
 }
