@@ -29,8 +29,17 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: xx-large;
   border-radius: 5px;
+  display: block;
+  text-align: center;
 }
-
+.keystroke{
+  box-shadow: 0 0 10px yellowgreen;
+  transition:all 0.07sec;
+}
+kbd{
+  font-size: 40px;
+  position: block;
+}
 .keys:hover{
   background-color: rgb(255, 228, 196,0.5)
 }
