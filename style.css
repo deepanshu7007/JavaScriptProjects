@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.keySet {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+body {
+  height: 100%;
+}
+
+.keys {
+  border: 2px solid black;
+  padding: 1em;
+  background-color: crimson;
+  color: burlywood;
+}
